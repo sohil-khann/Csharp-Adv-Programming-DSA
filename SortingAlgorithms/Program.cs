@@ -17,7 +17,8 @@ BubbleSort.Call();
 //Selection Sort
 //SelectionSort.Call();
 
-
+//countingsort
+CountingSort.Call();
 
 
 Console.ReadKey();

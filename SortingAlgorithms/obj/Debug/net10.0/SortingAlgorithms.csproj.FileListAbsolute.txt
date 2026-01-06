@@ -12,3 +12,4 @@ D:\Acess meditech\Csharp-Adv-Programming-DSA\SortingAlgorithms\obj\Debug\net10.0
 D:\Acess meditech\Csharp-Adv-Programming-DSA\SortingAlgorithms\obj\Debug\net10.0\SortingAlgorithms.pdb
 D:\Acess meditech\Csharp-Adv-Programming-DSA\SortingAlgorithms\obj\Debug\net10.0\SortingAlgorithms.genruntimeconfig.cache
 D:\Acess meditech\Csharp-Adv-Programming-DSA\SortingAlgorithms\obj\Debug\net10.0\ref\SortingAlgorithms.dll
+D:\Acess meditech\Csharp-Adv-Programming-DSA\SortingAlgorithms\obj\Debug\net10.0\SortingAlgorithms.sourcelink.json

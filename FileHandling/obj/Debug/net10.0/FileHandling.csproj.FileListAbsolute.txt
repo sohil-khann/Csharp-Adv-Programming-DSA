@@ -1,0 +1,15 @@
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\obj\Debug\net10.0\FileHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\obj\Debug\net10.0\FileHandling.AssemblyInfoInputs.cache
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\obj\Debug\net10.0\FileHandling.AssemblyInfo.cs
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\obj\Debug\net10.0\FileHandling.csproj.CoreCompileInputs.cache
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\obj\Debug\net10.0\FileHandling.sourcelink.json
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\bin\Debug\net10.0\FileHandling.exe
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\bin\Debug\net10.0\FileHandling.deps.json
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\bin\Debug\net10.0\FileHandling.runtimeconfig.json
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\bin\Debug\net10.0\FileHandling.dll
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\bin\Debug\net10.0\FileHandling.pdb
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\obj\Debug\net10.0\FileHandling.dll
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\obj\Debug\net10.0\refint\FileHandling.dll
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\obj\Debug\net10.0\FileHandling.pdb
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\obj\Debug\net10.0\FileHandling.genruntimeconfig.cache
+D:\Acess meditech\Csharp-Adv-Programming-DSA\FileHandling\obj\Debug\net10.0\ref\FileHandling.dll

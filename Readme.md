@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿﻿# C# Advanced Programming & Data Structures and Algorithms (DSA)
+=======
+﻿# C# Advanced Programming & Data Structures and Algorithms (DSA)
+>>>>>>> 0ff7bb04d0ec1c9c9fc9bc40398f43c5876682ad
 
 Welcome to the **C# Advanced Programming & DSA** repository. This project serves as a comprehensive collection of advanced C# programming concepts and implementations of fundamental Data Structures and Algorithms.
 
@@ -68,4 +72,8 @@ Csharp-Adv-Programming-DSA/
 ## Future Roadmap
 - [ ] Implement Selection Sort, Insertion Sort, and Quick Sort.
 - [ ] Add Data Structures (Linked Lists, Stacks, Queues, Trees).
+<<<<<<< HEAD
 - [ ] Demonstrate Advanced C# concepts (Delegates, LINQ, Generics, Task Parallel Library).
+=======
+- [ ] Demonstrate Advanced C# concepts (Delegates, LINQ, Generics, Task Parallel Library).
+>>>>>>> 0ff7bb04d0ec1c9c9fc9bc40398f43c5876682ad

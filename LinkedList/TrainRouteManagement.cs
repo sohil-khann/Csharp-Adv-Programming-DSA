@@ -107,7 +107,7 @@ class ExpressRoute : TrainRoute
     // Polymorphism: Overriding travel rules
     public override void Travel()
     {
-        Console.WriteLine("Express Train is skipping minor stops... (Simulated)");
+        Console.WriteLine("Express Train is skipping minor stops... ");
         base.Travel();
     }
 }

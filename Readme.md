@@ -1,6 +1,4 @@
 ﻿﻿# C# Advanced Programming & Data Structures and Algorithms (DSA)
-=======
-﻿# C# Advanced Programming & Data Structures and Algorithms (DSA)
 
 Welcome to the **C# Advanced Programming & DSA** repository. This project serves as a comprehensive collection of advanced C# programming concepts and implementations of fundamental Data Structures and Algorithms.
 
@@ -16,10 +14,20 @@ This repository is designed to help developers understand and implement complex 
 
 ### Currently Implemented
 
-#### 1. Sorting Algorithms
-- **Bubble Sort**: A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. 
-  - Implementation: [BubbleSort.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/SortingAlgorithms/BubbleSort.cs)
-  - Features: Optimized with a `swapped` flag to stop early if the array is already sorted.
+#### 1. Sorting Algorithms (Project: SortingAlgorithms)
+- **Bubble Sort**: Optimized implementation with a `swapped` flag. [BubbleSort.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/SortingAlgorithms/BubbleSort.cs)
+
+#### 2. File Handling & Searching (Project: FileHandling)
+- **File Handling**: Byte to Character Stream, User Input to File.
+- **Searching**: Linear Search (First Negative, Word in Sentences), Binary Search (Rotation Point, Peak Element, 2D Matrix, Occurrences).
+- **Challenge**: Missing Positive & Target Index Search.
+
+#### 3. Runtime Performance Analysis (Project: RuntimeAnalysis)
+- **Search Analysis**: Comparing Linear vs Binary search performance. [SearchAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/SearchAnalysis.cs)
+- **Sorting Analysis**: Comparing Bubble Sort, Merge Sort, and Quick Sort. [SortingAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/SortingAnalysis.cs)
+- **String Analysis**: Comparing standard `string` vs `StringBuilder` concatenation. [StringAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/StringAnalysis.cs)
+- **File Reading Analysis**: Comparing `StreamReader` vs `FileStream` for large file access. [FileReadingAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/FileReadingAnalysis.cs)
+- **Fibonacci Analysis**: Comparing Recursive vs Iterative Fibonacci efficiency. [FibonacciAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/FibonacciAnalysis.cs)
 
 ---
 
@@ -27,12 +35,12 @@ This repository is designed to help developers understand and implement complex 
 
 ```text
 Csharp-Adv-Programming-DSA/
-├── SortingAlgorithms/
-│   ├── BubbleSort.cs          # Bubble Sort implementation
-│   ├── Program.cs             # Application entry point and demo
-│   └── SortingAlgorithms.csproj # Project configuration
-├── .gitignore                 # Git ignore configuration
-└── Readme.md                  # This file
+├── SortingAlgorithms/      # Basic sorting implementations
+├── FileHandling/           # File operations and search exercises
+├── RuntimeAnalysis/        # Performance comparison modules
+├── LinkedLists/            # Linked List implementations
+├── Readme.md
+└── .gitignore
 ```
 
 ---
@@ -40,38 +48,32 @@ Csharp-Adv-Programming-DSA/
 ## Technology Stack
 
 - **C# 12** - Modern C# language features.
-- **.NET 10.0** - Latest .NET framework for high-performance applications.
-- **Visual Studio 2022+** - Recommended IDE for development.
+- **.NET 10.0** - Latest .NET framework.
+- **Visual Studio 2022+** - Recommended IDE.
 
 ---
 
 ## Getting Started
 
 ### Prerequisites
-- **.NET 10.0 SDK** installed on your machine.
-- **Visual Studio 2022** or **Visual Studio Code** with C# Dev Kit.
+- **.NET 10.0 SDK** installed.
 
-### Running the Project
-1. Clone the repository:
+### Running the Projects
+1. **Sorting Algorithms**:
    ```bash
-   git clone https://github.com/your-username/Csharp-Adv-Programming-DSA.git
+   cd SortingAlgorithms && dotnet run
    ```
-2. Navigate to the project directory:
+2. **File Handling & Search**:
    ```bash
-   cd Csharp-Adv-Programming-DSA/SortingAlgorithms
+   cd FileHandling && dotnet run
    ```
-3. Run the application:
+3. **Runtime Analysis**:
    ```bash
-   dotnet run
+   cd RuntimeAnalysis && dotnet run
    ```
 
 ---
 
 ## Future Roadmap
-- [ ] Implement Selection Sort, Insertion Sort, and Quick Sort.
 - [ ] Add Data Structures (Linked Lists, Stacks, Queues, Trees).
-
-- [ ] Demonstrate Advanced C# concepts (Delegates, LINQ, Generics, Task Parallel Library).
-=======
-- [ ] Demonstrate Advanced C# concepts (Delegates, LINQ, Generics, Task Parallel Library).
-
+- [ ] Demonstrate Advanced C# concepts (Delegates, LINQ, Generics).

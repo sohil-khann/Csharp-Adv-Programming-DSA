@@ -18,16 +18,38 @@ This repository is designed to help developers understand and implement complex 
 - **Bubble Sort**: Optimized implementation with a `swapped` flag. [BubbleSort.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/SortingAlgorithms/BubbleSort.cs)
 
 #### 2. File Handling & Searching (Project: FileHandling)
-- **File Handling**: Byte to Character Stream, User Input to File.
-- **Searching**: Linear Search (First Negative, Word in Sentences), Binary Search (Rotation Point, Peak Element, 2D Matrix, Occurrences).
-- **Challenge**: Missing Positive & Target Index Search.
+- **File Handling**: 
+    - [ByteToCharStream.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/FileHandling/ByteToCharStream.cs): Converting binary data to characters using `StreamReader`.
+    - [UserInputToFile.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/FileHandling/UserInputToFile.cs): Persisting console input to local storage using `StreamWriter`.
+- **Linear Search**: 
+    - [FirstNegativeSearch.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/FileHandling/FirstNegativeSearch.cs): Finding the first negative integer in an array.
+    - [WordSearchInSentences.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/FileHandling/WordSearchInSentences.cs): Searching for specific keywords across multiple sentences.
+- **Binary Search**: 
+    - [RotationPointSearch.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/FileHandling/RotationPointSearch.cs): Finding the pivot in a rotated sorted array.
+    - [PeakElementSearch.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/FileHandling/PeakElementSearch.cs): Identifying elements greater than their neighbors.
+    - [MatrixBinarySearch.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/FileHandling/MatrixBinarySearch.cs): Efficient searching in 2D sorted matrices.
+    - [FirstLastOccurrenceSearch.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/FileHandling/FirstLastOccurrenceSearch.cs): Finding range of indices for target values.
+- **Challenge**: 
+    - [MissingPositiveAndTargetSearch.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/FileHandling/MissingPositiveAndTargetSearch.cs): Combined Linear and Binary search to find missing integers and target indices.
 
 #### 3. Runtime Performance Analysis (Project: RuntimeAnalysis)
 - **Search Analysis**: Comparing Linear vs Binary search performance. [SearchAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/SearchAnalysis.cs)
-- **Sorting Analysis**: Comparing Bubble Sort, Merge Sort, and Quick Sort. [SortingAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/SortingAnalysis.cs)
-- **String Analysis**: Comparing standard `string` vs `StringBuilder` concatenation. [StringAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/StringAnalysis.cs)
-- **File Reading Analysis**: Comparing `StreamReader` vs `FileStream` for large file access. [FileReadingAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/FileReadingAnalysis.cs)
-- **Fibonacci Analysis**: Comparing Recursive vs Iterative Fibonacci efficiency. [FibonacciAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/FibonacciAnalysis.cs)
+- **Sorting Analysis**: Comparing Bubble Sort, Merge Sort, and Quick Sort efficiency. [SortingAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/SortingAnalysis.cs)
+- **String Analysis**: Performance gap between standard `string` and `StringBuilder`. [StringAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/StringAnalysis.cs)
+- **File Reading Analysis**: Efficiency comparison between `StreamReader` and `FileStream`. [FileReadingAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/FileReadingAnalysis.cs)
+- **Fibonacci Analysis**: Exponential (Recursive) vs Linear (Iterative) time complexity. [FibonacciAnalysis.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/RuntimeAnalysis/FibonacciAnalysis.cs)
+
+#### 4. Queue Management Use Cases (Project: QueueManagement)
+- **Print Job Manager**: Document printing order management. [PrintJobManager.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/QueueManagement/PrintJobManager.cs)
+- **Ticket Booking**: Sequential request processing for transport. [TicketBookingSystem.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/QueueManagement/TicketBookingSystem.cs)
+- **Task Dispatcher**: Background task worker queue. [TaskDispatcher.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/QueueManagement/TaskDispatcher.cs)
+- **Call Center System**: Incoming call routing and agent assignment. [CallCenterManagement.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/QueueManagement/CallCenterManagement.cs)
+
+#### 5. HashMap (Dictionary) Use Cases (Project: HashMapManagement)
+- **Inventory System**: Mapping Product IDs to Electronics/Clothing info. [InventoryManagement.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/HashMapManagement/InventoryManagement.cs)
+- **RBAC System**: Mapping usernames to roles and permissions. [RBACSystem.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/HashMapManagement/RBACSystem.cs)
+- **Student Grade Book**: Mapping roll numbers to multi-strategy reports. [StudentGradeBook.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/HashMapManagement/StudentGradeBook.cs)
+- **URL Shortener**: Mapping short codes to long URLs with custom storage. [URLShortener.cs](file:///d:/Acess%20meditech/Csharp-Adv-Programming-DSA/HashMapManagement/URLShortener.cs)
 
 ---
 
@@ -38,7 +60,8 @@ Csharp-Adv-Programming-DSA/
 ├── SortingAlgorithms/      # Basic sorting implementations
 ├── FileHandling/           # File operations and search exercises
 ├── RuntimeAnalysis/        # Performance comparison modules
-├── LinkedLists/            # Linked List implementations
+├── QueueManagement/        # Real-world Queue and OOP applications
+├── HashMapManagement/      # Real-world HashMap and OOP applications
 ├── Readme.md
 └── .gitignore
 ```
@@ -71,9 +94,17 @@ Csharp-Adv-Programming-DSA/
    ```bash
    cd RuntimeAnalysis && dotnet run
    ```
+4. **Queue Management**:
+   ```bash
+   cd QueueManagement && dotnet run
+   ```
+5. **HashMap Management**:
+   ```bash
+   cd HashMapManagement && dotnet run
+   ```
 
 ---
 
 ## Future Roadmap
-- [ ] Add Data Structures (Linked Lists, Stacks, Queues, Trees).
+- [ ] Add Data Structures (Linked Lists, Stacks, Trees).
 - [ ] Demonstrate Advanced C# concepts (Delegates, LINQ, Generics).
